@@ -1,7 +1,11 @@
 <template>
   <div>
     <NuxtLayout>
-      <template #main></template>
+      <template #main>
+        <div>
+          <NuxtImg class="hero" src="/images/hero.png" />
+        </div>
+      </template>
       <template #footer></template>
     </NuxtLayout>
   </div>
